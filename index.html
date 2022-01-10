@@ -15,17 +15,108 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>CookBook</title>
   </head>
   <body>
     <nav>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+      <ul class="nav justify-content-start ms-4 py-3">
+        <li class="nav-item">
+          <a href="#" class="btn btn-info align-middle">CookBook</a>
+        </li>
+        <li class="nav-item align-middle">
+          <a class="nav-link" href="#">Recipe 1</a>
+        </li>
+        <li class="nav-item align-middle">
+          <a class="nav-link" href="#">Recipe 2</a>
+        </li>
+        <li class="nav-item align-middle">
+          <a class="nav-link">Recipe 3</a>
+        </li>
       </ul>
     </nav>
+    <main>
+      <section
+        class="container-fluid my-5 d-flex justify-content-center"
+        style="max-width: 40rem"
+      >
+        <section class="card px-4">
+          <div class="card-body">
+            <h1 class="card-title mb-3">Card title</h1>
+            <p class="card-text mb-4">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <img
+              src="./assets/vegan-salad.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th class="text-center" scope="col">Prep</th>
+                <th class="text-center" scope="col">Cook</th>
+                <th class="text-center" scope="col">Total</th>
+                <th class="text-center" scope="col">Servings</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-center">10 mins</td>
+                <td class="text-center">40 mins</td>
+                <td class="text-center">50 mins</td>
+                <td class="text-center">6</td>
+              </tr>
+            </tbody>
+          </table>
 
-    <section></section>
+          <h3 class="mt-5 mb-4 px-4 text-center">Ingredients</h3>
+
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th class="text-center" scope="col">Amount</th>
+                <th class="text-center" scope="col">Item</th>
+                <th class="text-center" scope="col">Prep</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-center">1 can</td>
+                <td class="text-left">Chickpeas</td>
+                <td class="text-left" scope="col-2">Drained and rinsed</td>
+              </tr>
+              <tr>
+                <td class="text-center">1/2</td>
+                <td class="text-left">Avocado</td>
+                <td class="text-left" scope="col-2">Sliced</td>
+              </tr>
+              <tr>
+                <td class="text-center">100g</td>
+                <td class="text-left">Sweet potato</td>
+                <td class="text-left" scope="col-2">Cubed</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 class="mt-5 mb-4 ms-3">How to:</h4>
+          <ol style="line-height: 1.9">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. dolor sit
+              amet consectetur adipisicing elit
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. dolor sit
+              amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. dolor sit amet consectetur
+              adipisicing elit.
+            </li>
+            <li>Dolor sit amet consectetur adipisicing elit</li>
+          </ol>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
