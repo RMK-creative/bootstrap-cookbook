@@ -1,5 +1,8 @@
-const shareBtn = document.querySelector(".fa-share-square");
+const shareBtn = document.querySelectorAll(".fa-share-square");
 
-shareBtn.addEventListener("click", () => {
-  alert("https://rmk-creative.github.io/bootstrap-cookbook/");
+shareBtn.forEach((elem) => {
+  elem.addEventListener("click", () => {
+    console.log("clicked");
+    alert("https://rmk-creative.github.io/bootstrap-cookbook/");
+  });
 });
