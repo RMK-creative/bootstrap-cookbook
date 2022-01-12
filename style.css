@@ -43,3 +43,8 @@
 .fade-in {
   top: 60%;
 }
+
+.fa-share-square {
+  font-size: 2rem;
+  color: rgb(108, 108, 108);
+}
