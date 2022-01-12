@@ -1,3 +1,13 @@
+.recipe-card-container {
+  width: 70%;
+}
+
+.recipe-card {
+  margin: 3rem;
+  padding: 3rem;
+}
+
+/* Overlay & hover */
 .overlay-container {
   position: relative;
   width: 100%;
@@ -16,6 +26,7 @@
 
 .overlay-container:hover .img-overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 .img-text {
@@ -46,5 +57,5 @@
 
 .fa-share-square {
   font-size: 2rem;
-  color: rgb(108, 108, 108);
+  color: rgb(113, 113, 113);
 }

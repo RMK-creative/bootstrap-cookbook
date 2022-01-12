@@ -26,24 +26,30 @@
           <a href="#" class="btn btn-info align-middle">CookBook</a>
         </li>
         <li class="nav-item align-middle">
-          <a class="nav-link" href="#">Recipe 1</a>
+          <a class="nav-link" href="#">Salad</a>
         </li>
         <li class="nav-item align-middle">
-          <a class="nav-link" href="#">Recipe 2</a>
+          <a class="nav-link" href="#">Pancakes</a>
         </li>
         <li class="nav-item align-middle">
-          <a class="nav-link">Recipe 3</a>
+          <a class="nav-link">Pumpkin Soup</a>
         </li>
       </ul>
     </nav>
     <main>
       <section
-        class="container-fluid my-5 d-flex justify-content-center"
-        style="max-width: 40rem"
+        class="
+          recipe-card-container
+          container-fluid
+          my-5
+          d-flex
+          justify-content-center
+          flex-column
+        "
       >
-        <section class="card px-4">
+        <section class="recipe-card card px-4">
           <div class="card-body">
-            <h1 class="card-title mb-3">Card title</h1>
+            <h1 class="card-title mb-3">Salad</h1>
             <p class="card-text mb-4">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -52,12 +58,12 @@
             <div class="overlay-container">
               <div class="img-overlay"></div>
               <img
-                src="./assets/vegan-salad.jpg"
+                src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 class="card-img-top content-img"
                 alt="..."
               />
               <div class="img-text-hover fade-in">
-                <p class="img-text">Card title</p>
+                <p class="img-text">Salad</p>
               </div>
             </div>
           </div>
@@ -73,8 +79,8 @@
             <tbody>
               <tr>
                 <td class="text-center">10 mins</td>
-                <td class="text-center">40 mins</td>
-                <td class="text-center">50 mins</td>
+                <td class="text-center">0 mins</td>
+                <td class="text-center">10 mins</td>
                 <td class="text-center">6</td>
               </tr>
             </tbody>
@@ -105,6 +111,207 @@
                 <td class="text-center">100g</td>
                 <td class="text-left">Sweet potato</td>
                 <td class="text-left" scope="col-2">Cubed</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 class="mt-5 mb-4 ms-3">How to:</h4>
+          <ol style="line-height: 1.9">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. dolor sit
+              amet consectetur adipisicing elit
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. dolor sit
+              amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. dolor sit amet consectetur
+              adipisicing elit.
+            </li>
+            <li>Dolor sit amet consectetur adipisicing elit</li>
+          </ol>
+          <div class="container-fluid">
+            <a href="#">
+              <i class="fa fa-share-square d-flex justify-content-end p-2"></i>
+            </a>
+          </div>
+        </section>
+
+        <section class="recipe-card card px-4">
+          <div class="card-body">
+            <h1 class="card-title mb-3">Pancakes</h1>
+            <p class="card-text mb-4">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <!-- OVERLAY -->
+            <div class="overlay-container">
+              <div class="img-overlay"></div>
+              <img
+                src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80"
+                class="card-img-top content-img"
+                alt="..."
+              />
+              <div class="img-text-hover fade-in">
+                <p class="img-text">Pancakes</p>
+              </div>
+            </div>
+          </div>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th class="text-center" scope="col">Prep</th>
+                <th class="text-center" scope="col">Cook</th>
+                <th class="text-center" scope="col">Total</th>
+                <th class="text-center" scope="col">Servings</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-center">5 mins</td>
+                <td class="text-center">20 mins</td>
+                <td class="text-center">35 mins</td>
+                <td class="text-center">6</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 class="mt-5 mb-4 px-4 text-center">Ingredients</h3>
+
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th class="text-center" scope="col">Amount</th>
+                <th class="text-center" scope="col">Item</th>
+                <th class="text-center" scope="col">Prep</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-center">3/4 cup</td>
+                <td class="text-left">Flour</td>
+                <td class="text-left" scope="col-2">Sifted</td>
+              </tr>
+              <tr>
+                <td class="text-center">2 tsp</td>
+                <td class="text-left">Baking powder</td>
+                <td class="text-left" scope="col-2"></td>
+              </tr>
+              <tr>
+                <td class="text-center">3 tbsp</td>
+                <td class="text-left">Butter</td>
+                <td class="text-left" scope="col-2">Unsalted</td>
+              </tr>
+              <tr>
+                <td class="text-center">2</td>
+                <td class="text-left">Eggs</td>
+                <td class="text-left" scope="col-2"></td>
+              </tr>
+              <tr>
+                <td class="text-center">1 1/4 cups</td>
+                <td class="text-left">Milk</td>
+                <td class="text-left" scope="col-2"></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 class="mt-5 mb-4 ms-3">How to:</h4>
+          <ol style="line-height: 1.9">
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. dolor sit
+              amet consectetur adipisicing elit
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. dolor sit
+              amet consectetur adipisicing elit Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. dolor sit amet consectetur
+              adipisicing elit.
+            </li>
+            <li>Dolor sit amet consectetur adipisicing elit</li>
+          </ol>
+          <div class="container-fluid">
+            <a href="#">
+              <i class="fa fa-share-square d-flex justify-content-end p-2"></i>
+            </a>
+          </div>
+        </section>
+
+        <!--  -->
+        <section class="recipe-card card px-4">
+          <div class="card-body">
+            <h1 class="card-title mb-3">Pumpkin Soup</h1>
+            <p class="card-text mb-4">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <!-- OVERLAY -->
+            <div class="overlay-container">
+              <div class="img-overlay"></div>
+              <img
+                src="https://images.unsplash.com/photo-1605909388460-74ec8b204127?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                class="card-img-top content-img"
+                alt="..."
+              />
+              <div class="img-text-hover fade-in">
+                <p class="img-text">Pumpkin Soup</p>
+              </div>
+            </div>
+          </div>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th class="text-center" scope="col">Prep</th>
+                <th class="text-center" scope="col">Cook</th>
+                <th class="text-center" scope="col">Total</th>
+                <th class="text-center" scope="col">Servings</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-center">10 mins</td>
+                <td class="text-center">30 mins</td>
+                <td class="text-center">40 mins</td>
+                <td class="text-center">6</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 class="mt-5 mb-4 px-4 text-center">Ingredients</h3>
+
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th class="text-center" scope="col">Amount</th>
+                <th class="text-center" scope="col">Item</th>
+                <th class="text-center" scope="col">Prep</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-center">1</td>
+                <td class="text-left">Onion</td>
+                <td class="text-left" scope="col-2">Chopped</td>
+              </tr>
+              <tr>
+                <td class="text-center">1/4 tsp</td>
+                <td class="text-left">Thyme</td>
+                <td class="text-left" scope="col-2">Dried</td>
+              </tr>
+              <tr>
+                <td class="text-center">4 cups</td>
+                <td class="text-left">Pumpkin</td>
+                <td class="text-left" scope="col-2">Roasted</td>
+              </tr>
+              <tr>
+                <td class="text-center">7 cups</td>
+                <td class="text-left">Chicken stock</td>
+                <td class="text-left" scope="col-2">Adjust for thickness</td>
+              </tr>
+              <tr>
+                <td class="text-center">1 tsp</td>
+                <td class="text-left">Salt</td>
+                <td class="text-left" scope="col-2">More or less to taste</td>
               </tr>
             </tbody>
           </table>
