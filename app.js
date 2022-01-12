@@ -1,5 +1,5 @@
 const shareBtn = document.querySelector(".fa-share-square");
 
 shareBtn.addEventListener("click", () => {
-  alert("cookbook.com");
+  alert("https://rmk-creative.github.io/bootstrap-cookbook/");
 });
