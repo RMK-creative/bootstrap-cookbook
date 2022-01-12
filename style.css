@@ -1,3 +1,17 @@
+/* global */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Recipe card */
+
 .recipe-card-container {
   width: 70%;
 }
@@ -5,6 +19,11 @@
 .recipe-card {
   margin: 3rem;
   padding: 3rem;
+}
+
+.fa-share-square {
+  font-size: 2rem;
+  color: rgb(113, 113, 113);
 }
 
 /* Overlay & hover */
@@ -53,9 +72,4 @@
 
 .fade-in {
   top: 60%;
-}
-
-.fa-share-square {
-  font-size: 2rem;
-  color: rgb(113, 113, 113);
 }
