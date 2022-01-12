@@ -10,6 +10,43 @@ a {
   text-decoration: none;
 }
 
+/* Thumbnails */
+
+.thumbnail-container {
+  margin-top: 5rem;
+}
+
+.thumbnail {
+  background-image: url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: bottom;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+}
+
+.thumbnail1 {
+  background-image: url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: bottom;
+}
+
+.thumbnail2 {
+  background-image: url("https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80");
+  background-position: center left;
+}
+
+.thumbnail3 {
+  background-image: url("https://images.unsplash.com/photo-1605909388460-74ec8b204127?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+  background-position: center;
+}
+
+.thumbnail4 {
+  background-image: url("https://images.unsplash.com/photo-1560717845-968823efbee1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+.thumbnail5 {
+  background-image: url("https://images.unsplash.com/photo-1604908177453-7462950a6a3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1057&q=80");
+}
+
 /* Recipe card */
 
 .recipe-card-container {
@@ -29,7 +66,6 @@ a {
 /* Overlay & hover */
 .overlay-container {
   position: relative;
-  width: 100%;
 }
 
 .overlay-container .img-overlay {
@@ -49,7 +85,9 @@ a {
 }
 
 .img-text {
-  font-size: 3rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
   color: #fff;
 }
 
