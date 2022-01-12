@@ -1,0 +1,45 @@
+.overlay-container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay-container .img-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.overlay-container:hover .img-overlay {
+  opacity: 1;
+}
+
+.img-text {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.img-text-hover {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease-in 0s;
+  opacity: 0;
+}
+
+.overlay-container:hover .img-text-hover {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.fade-in {
+  top: 60%;
+}
