@@ -14,18 +14,18 @@ h1 {
   font-size: 2rem;
 }
 
-/* Thumbnails */
-
-.thumbnail-container {
-  margin-top: 6rem;
+.main-content-wrap {
+  padding-top: 13rem;
 }
+
+/* Thumbnails */
 
 .thumbnail {
   background-image: url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-position: bottom;
   background-size: cover;
-  height: 150px;
-  width: 200px;
+  min-height: 70px;
+  min-width: 95px;
 }
 
 .thumbnail1 {
@@ -54,12 +54,13 @@ h1 {
 /* Recipe card */
 
 .recipe-card-container {
-  width: 70%;
+  width: 95%;
 }
 
 .recipe-card {
-  margin: 3rem;
-  padding: 3rem;
+  padding: 1rem;
+  width: 100%;
+  margin: 2rem auto;
 }
 
 .fa-share-square {
@@ -116,3 +117,35 @@ h1 {
 .fade-in {
   top: 60%;
 }
+
+@media only screen and (min-width: 530px) {
+  .recipe-card-container {
+    width: 70%;
+  }
+
+  .recipe-card {
+    margin: 3rem auto;
+    padding: 3rem;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .main-content-wrap {
+    padding-top: 9rem;
+  }
+  .thumbnail {
+    min-height: 100px;
+    min-width: 150px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .main-content-wrap {
+    padding-top: 6rem;
+  }
+
+  .thumbnail {
+    min-height: 150px;
+    min-width: 200px;
+  }
+} ;
