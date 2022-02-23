@@ -22,6 +22,6 @@ When the user hovers the recipe image with the mouse, the recipe title must be d
 Add a “Share” button underneath the recipe
 When the user clicks on it, an alert with window (JavaScript alert) pops up with the URL of the page
 
-## Images
+## Screenshot
 
-![](/screenshot.jpg)
+![Screenshot of webpage](/screenshot.jpg)
