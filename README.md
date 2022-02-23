@@ -24,4 +24,4 @@ When the user clicks on it, an alert with window (JavaScript alert) pops up with
 
 ## Images
 
-![Screenshot of webpage.](/screenshot.jpg)
+![](/screenshot.jpg)
